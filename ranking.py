@@ -158,9 +158,9 @@ def get_base64_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
-image_data = get_base64_image("./따릉이 자전거 이미지.png")
-image_data2 = get_base64_image("./따릉이 아이콘.png")
-image_data3 = get_base64_image("./승용차 아이콘.png")
+image_data = get_base64_image("따릉이 자전거 이미지.png")
+image_data2 = get_base64_image("따릉이 아이콘.png")
+image_data3 = get_base64_image("승용차 아이콘.png")
 
 # HTML 컨텐츠 삽입 (이미지 포함)
 st.markdown(content.format(image_data=image_data, image_data2=image_data2, image_data3=image_data3), unsafe_allow_html=True)
