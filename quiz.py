@@ -82,7 +82,7 @@ st.markdown(
     f"""
     <div class="custom-div">
         <div class="row">
-            <img src="data:image/png;base64,{image_data}" alt="물개 이미지" style="width: 200px; height: auto;">
+            <img src="data:image/png;base64,{image_data}" alt="seal img" style="width: 200px; height: auto;">
             <div class="text-container">
                 <h4 style="margin-bottom: -20px;">
                     <span class="green-text">매일</span> 새로운 <span class="green-text">환경퀴즈</span>에 도전하고
