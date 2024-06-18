@@ -12,7 +12,7 @@ def image_to_base64(image_path):
     img_str = base64.b64encode(buffered.getvalue()).decode()
     return img_str
 
-image_path1 = './icon3.png'
+image_path1 = 'socar.png'
 img_base64_1 = image_to_base64(image_path1)
 st.markdown(
     """
