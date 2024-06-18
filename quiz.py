@@ -7,6 +7,7 @@ def get_base64_image(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 image_data = get_base64_image("seal.png")
+popup_image_data = get_base64_image("check.png")
 
 #퀴즈
 quiz = {
