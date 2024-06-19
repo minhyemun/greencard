@@ -116,7 +116,7 @@ st.markdown(
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .card3 .text {
-        font-size: 12px;
+        font-size: 13px;
         color: black;
         margin-left: 25px;
         margin-top: 8px;  
@@ -132,7 +132,7 @@ st.markdown(
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .card4 .text {
-        font-size: 12px;
+        font-size: 13px;
         color: black;
         margin-left: 25px;
         margin-top: 8px;  
@@ -148,7 +148,7 @@ st.markdown(
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .card5 .text {
-        font-size: 12px;
+        font-size: 13px;
         color: black;
         margin-left: 25px;
         margin-top: 8px;  
