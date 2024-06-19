@@ -92,7 +92,7 @@ st.markdown(
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .card2 .text {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: bold;
         color: white;
         margin-left: 22px;
