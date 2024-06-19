@@ -22,9 +22,8 @@ def image_to_base64(image_path):
 st.markdown(
     f"""
     <style>
-
     .card3 {{
-        width: 360px;
+        width: 370px;
         height: 70px;
         margin-left: 150px;
         margin-top: 30px; /* 조정 필요한 위치에 따라 margin-top 값을 조정하세요 */
@@ -50,7 +49,7 @@ st.markdown(
         margin-top: -15px;
     }}
     .card4 {{
-        width: 360px;
+        width: 370px;
         height: 70px;
         margin-left: 150px;
         margin-top: 12px;
@@ -76,7 +75,7 @@ st.markdown(
         margin-left: 25px;
     }}
     .card5 {{
-        width: 360px;
+        width: 370px;
         height: 70px;
         margin-left: 150px;
         margin-top: 12px;
@@ -102,7 +101,7 @@ st.markdown(
         margin-left: 25px;
     }}
     .card6 {{
-        width: 360px;
+        width: 370px;
         height: 70px;
         margin-left: 150px;
         margin-top: 12px;
@@ -128,7 +127,7 @@ st.markdown(
         margin-left: 25px;
     }}
     .card7 {{
-        width: 360px;
+        width: 370px;
         height: 70px;
         margin-left: 150px;
         margin-top: 12px;
@@ -182,16 +181,15 @@ st.markdown(
 
         /* 출발지 입력 필드의 너비 조정 */
     .stTextInput {{
-            width: 300px !important;
+            width: 350px !important;
             margin-left:170px;
             margin-bottom: -10px;
         }}
         /* 도착지 입력 필드의 너비 조정 */
     .stTextInput {{
-            width: 300px !important;
+            width: 350px !important;
             margin-left:170px;
         }}
-
     </style>
     """,
     unsafe_allow_html=True
@@ -201,6 +199,7 @@ st.markdown(
 st.markdown("<div class='title'>탄소배출절감 지도</div>", unsafe_allow_html=True)
 st.markdown("<p class='info-text1'>내가 이동하는 거리의 교통수단별</p>", unsafe_allow_html=True)
 st.markdown("<p class='info-text2'>탄소배출량을 조회해보아요!</p>", unsafe_allow_html=True)
+
 # 출발지 및 도착지 입력 필드
 departure = st.text_input("출발지:",key="departure_input")
 destination = st.text_input("도착지:", key="destination_input")
